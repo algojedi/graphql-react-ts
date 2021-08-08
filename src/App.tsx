@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable @typescript-eslint/no-empty-function */
+import React from 'react'
+import './App.css'
+import { MyForm, Values } from './myForm'
 
-function App() {
+const App: React.FC = () => {
+  const handleSubmit = ({ email, password } : Values ) => {
+    console.log('and the shit is for email and pw: ')
+    console.log({ email })
+    console.log({ password })
+    // TODO: make fetch call here
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <MyForm onSumbit={handleSubmit} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
