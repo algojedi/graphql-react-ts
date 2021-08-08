@@ -1,0 +1,25 @@
+.nav {
+  height: 100px;
+  max-width: 100%;
+  background-color: aliceblue;
+  padding: 15px;
+}
+
+.list {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: right;
+}
+
+.list_item {
+  margin: 0px 10px;
+}
+
+.nav_link {
+  text-decoration: none;
+}
+
+.username {
+  color: burlywood;
+}

@@ -1,0 +1,11 @@
+[
+  { "id": 1, "title": "Stuff about hockey", "content": "is it not the best sport ever?", "created_at": "July 30, 2021", "creator_id": 1 },
+  {
+    "id": 2,
+    "title": "Stuff about basketball",
+    "content": "is it not the worst sport ever?",
+    "created_at": "July 30, 2021",
+    "creator_id": 1
+  },
+  { "id": 3, "title": "Stuff about golf", "content": "is it a sport?", "created_at": "July 30, 2021", "creator_id": 1 }
+]

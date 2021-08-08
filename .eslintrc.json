@@ -15,7 +15,6 @@
     "func-names": "off",
     "comma-dangle": "off",
     "semi": ["warn", "never"],
-    "indent": [2, 2],
     "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
   },
   "extends": [
